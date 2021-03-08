@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Fernando Ale</title>
+    <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+            crossorigin="anonymous">
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+
+     <!--Libreria para efecto lightbox - ekko lightbox-->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+   />
+
+    <!--FontAwesome-->
+
+    <script src="https://kit.fontawesome.com/ff733e6304.js" crossorigin="anonymous"></script>
+
+   
+   
+</head>
+<body>
+
+
+    <div class="alert alert-primary alert-dismissible mb-0" >
+        <button class="close" type="button" data-dismiss="alert">
+            <span>&times</span>
+        </button>
+
+        <h4 class="alert-head headline text-center mb-2" style="font-size: 18px; font-weight: 500;"><strong>BIENVENIDO</strong></h4>
+        <p class="lead text-center mb-0">
+          En la sección "MI CV" tendrás mi Currículum en formato .PDF actualizado para descargarlo.
+        </p>
+       
+
+     
+      </div>
+
+
+
+    <section class="bg-nav sticky-top">
+
+        <nav class="navbar navbar-expand-sm navbar-light py-4 letra-nav">
+
+            <button
+            data-target="#navbarNav"
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <div class="collapse navbar-collapse d-flex mb-auto" id="navbarNav">
+            
+            <a class="navbar-brand ml-5" href="https://fernandoale.netlify.app/"><img src="images/logo.png" alt="Logo"></a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto align-top">
+                    <li class="nav-item active">
+                        <a class="nav-link effect-shine" href="#inicio"
+                        >INICIO <span class="sr-only">(current)</span></a
+                        >
+                    </li>
+        
+                    <li class="nav-item active">
+                        <a class="nav-link effect-shine" href="#for"
+                        >FORMACION <span class="sr-only">(current)</span></a
+                        >
+                    </li>
+        
+                    <li class="nav-item active">
+                        <a class="nav-link effect-shine" href="#exp"
+                        >EXPERIENCIA <span class="sr-only">(current)</span></a
+                        >
+                    </li>
+        
+                    <li class="nav-item active">
+                        <a class="nav-link effect-shine" href="#skills"
+                        >CONOCIMIENTOS <span class="sr-only">(current)</span></a
+                        >
+                    </li>
+        
+                    <li class="nav-item active">
+                        <a class="nav-link effect-shine" href="#apt"
+                        >APTITUDES <span class="sr-only">(current)</span></a
+                        >
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link effect-shine" href="#cv"
+                        >MI CV <span class="sr-only">(current)</span></a>   <!--Recordar hacer section -> id = cv-->
+                    </li>
+        
+                    <li class="nav-item active">
+                        <a class="nav-link effect-shine t-c" href="#formu"
+                        >CONTACTAME <span class="sr-only">(current)</span></a
+                        >
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+    </section>
+
+    
+
+    <header class="container-fluid ">
+        <div class="row">
+
+
+            <div class="col-xl-6 col-lg-6 col-xs-12">
+                <h1 class="text-center pt-5 pb-5">EL SITIO WEB DE FERNANDO ALE</h1>
+        
+            </div>
+        
+            <div class="col-xl-6 col-lg-6 col-xs-12 d-flex justify-content-center align-items-center contenedor">
+        
+                <img class="image" src="images/fer.jpg" alt="Fernando Ale" width="200px" height="220px" class="rounded-circle img-fluid image ">
+        
+    
+                    <div class="overlay">
+    
+                        <div class="text">Fernando Ale</div>
+    
+                    </div>
+
+
+            
+            </div>
+
+
+            <svg viewBox="0 -20 700 110" width="100%" height="110" preserveAspectRatio="none">
+                <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700" fill="#B6CBD7" />
+                <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="#EEFFFF" />
+                
+            </svg>
+
+        </div>
+
+    </header>
+
+    <div class="container" id="inicio">
+        
+        <div class="col-12 d-flex justify-content-center">
+
+            <section class="mt-3">
+                
+                <h2 class="headline">acerca de mí</h2>
+
+                <p class="parrafo">
+
+                    Mi nombre es <span class="text-primary">Fernando Ale</span>, tengo <span class="text-primary">veinte</span> años y soy un
+                    estudiante de <span class="text-primary">Ingeniería en Informática</span> introduciéndome en el ambiente de la programación
+                    web. Me apasiona aprender nuevas herramientas y desarrollar mis conocimientos.
+
+                    
+                </p>
+                
+                <hr>
+                
+                <h2 class="headline">¿qué habrá en la página?</h2>
+                <p class="parrafo">
+                    Ésta es mi primera página web y funcionará como un <span class="text-primary">portfolio</span> en donde iré contando sobre
+                    mi persona y a su vez, hacerlo aplicando lo que voy <span class="text-primary">aprendiendo</span> sobre programación web.
+                   
+                </p>
+                
+            </section>
+        </div>
+
+
+    </div>
+
+    <!--
+        <section>
+            <img class="mt-5" src="https://images.pexels.com/photos/358528/pexels-photo-358528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="montañas" width="100%" height="600px">
+        </section>
+
+
+
+    -->
+
+
+
+
+    <section class="container mt-5" id="for">
+
+        <h2 class=" pt-2 pb-2 text-center headline titulos">Formación
+
+        <img src="images/libros.png" class="icon" alt="libro">
+
+        </h2>
+
+
+        <div class="row mt-5 ancho">
+            <div class="alert paneles sombras " >
+
+                <div id="accordion" >
+                    <div class="card " >
+                        <a id="uade" onclick="changeColor(this)" href="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                            <div class="card-header expandir" id="headingOne">
+                            <h5 class="mb-0 ">
+                                <button  class="btn btn-link text-dark " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                UADE (Universidad Argentina de la Empresa) | 2020 - En curso
+                                </button>
+                            </h5>
+                            </div>
+
+                        </a>
+                    
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body fondo-acord">
+                                Obtuve una beca en mi último año del colegio secundario a través del programa "Futuros Ingenieros" ofrecido por la universidad a los
+                                mejores promedios de sexto año. Decidí anotarme en Ingenieria en Informática y cursé mi primer año con un promedio de 8,5. Actualmente me encuentro en el segundo año de la carrera.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a id="et21"  onclick="changeColor(this)"  href="" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+
+                            <div class="card-header expandir" id="headingTwo">
+                                <h5 class="mb-0 ">
+                                    <button class="btn btn-link text-dark " data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    Escuela Técnica N° 21 "Fragata Escuela Libertad" | 2014 - 2019
+                                    </button>
+                                </h5>
+                            </div>
+
+                        </a>
+
+
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body fondo-acord">
+                                La ET21 está ubicada en la zona de Coghlan, en CABA y posee dos modalidades a seguir: Maestro Mayor de Obras y Técnico en Computación. <br>
+                                Me recibí en 2019 con el título de Técnico en Computación en este colegio. Terminé con un promedio aproximado de 8.15 y obtuve beneficios tales como la beca en UADE y rendir un examen para los mejores promedios organizado por el Gobierno de la Ciudad. Aquí adquirí la mayoría de mis conocimientos sobre software, hardware y electricidad, entre otros...
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a id="otros"  onclick="changeColor(this)"  href="" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+
+                            <div class="card-header expandir" id="headingThree">
+                                <h5 class="mb-0 ">
+                                    <button class="btn btn-link text-dark " data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    Otros
+                                    </button>
+                                </h5>
+                            </div>
+
+                        </a>
+
+
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body fondo-acord">
+                                <b>Curso Desarrollo Web Inicial | YouTube</b> Por Franco Di Leo, docente en UTN y desarrollador web.
+                                <a href="https://www.youtube.com/playlist?list=PLtKI8MF06ilBBbF_8KAcceCbFD4ZUsbrs" target="_blank">
+                                    
+                                    Ver más
+                                </a>
+
+                                <hr>
+
+                                <b>Megacurso de Bootstrap 4 | Udemy</b> Por José Andrés Montoya, diseñador y desarrollador de aplicaciones.           
+                                <a class="mr-3" href="https://www.udemy.com/course/megacurso-bootstrap-4/" target="_blank">
+                                
+                                    Ver más
+                                
+                                </a>
+
+                                <a
+                                    href="images/certificado.jpg"
+                                    data-toggle="lightbox"
+                                    data-title="Certificado Megacurso de Bootstrap 4"
+                                    data-footer="Marzo - 2021"
+                                >
+                                    Ver certificado
+                                </a>
+
+                                <img
+                                src="img/render2web.jpg"
+                                alt=""
+                                class="img-fluid img-rounded img-thumbnail"
+                            />
+
+                                <hr>
+
+                                <b>Getting Started with JavaScript | FrontEnd Masters</b> Por Kyle Simpson, especialista en JS y creador del libro "You don´t know about JS".           
+                                <a href="https://frontendmasters.com/courses/getting-started-javascript-v2/" target="_blank">
+                                
+                                    Ver más
+                                
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            
+            </div>
+
+        </div>
+
+        
+
+                <!--modal
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Ver más
+                
+                </button>
+                
+                -->
+
+          
+        <div class="row">
+
+            
+            <div class="col-xl-6 col-md-6 col-xs-12">
+                <div class="alert paneles sombras">
+                    <div class="card text-center">
+                        <img class="card img-top" src="https://www.infocampo.com.ar/wp-content/uploads/2019/12/uade-facultad.jpg" width="100%" height="250px">
+    
+                        <div class="card-body ">
+                            <h4 class="card-title texto-carta headline">Universidad Argentina de la Empresa (UADE)</h4>
+                            
+        
+                        </div>
+                        
+        
+                    </div>
+
+                </div>
+
+                        
+            </div>
+
+            <div class="col-xl-6 col-md-6 col-xs-12">
+                <div class="alert paneles sombras">
+                    <div class="card text-center">
+                        <img class="card img-top" src="https://lh3.googleusercontent.com/p/AF1QipMw_cnSF1NqnmHreKPCpYnHYv1g41CdqCCegiA=s1600-h297" width="100%" height="250px">
+    
+                        <div class="card-body ">
+                            <h4 class="card-title texto-carta headline">Escuela Técnica N° 21 "Fragata Escuela Libertad"</h4>
+                           
+    
+                        </div>
+                    
+    
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+            
+    </section>
+
+
+    <!--Experiencia-->
+
+    <section class="container mt-5" id="exp">
+
+        <h2 class="pt-2 pb-2 text-center headline titulos">Experiencia
+        
+        <img src="images/job.png" class="icon">
+
+        </h2>
+
+        <div class="row mt-5 ancho">
+
+            <!--<div class="col-xl-6 col-md-6 col-xs-12" --> 
+
+            <div class="alert paneles sombras ">
+
+                <p class="text-center">Actualmente no cuento con ningua experiencia en relación de dependencia en el ámbito laboral. Me gustaría y tengo muchas ganas de encontrar un lugar en donde pueda introducirme y conocer la forma en la que se trabaja en una organización.<br>
+                Asimismo realicé algunas actividades por mi cuenta que se destacan a continuación: </p>
+
+            </div>
+        </div>
+
+            <!--/div-->
+        <div class="row mt-5">
+            <div class="col-xl-6 col-md-6 col-xs-12">
+
+                <div class="alert paneles sombras">
+                    <h3 class="text-center">Reparación de PC <span class="esquina"><i>(2018 - Actualidad)</i></span></h3>
+                    <p>Soporte al cliente por cuenta propia, solucionando cualquier tipo de inconveniente que se presente.<br>
+                        Realizo armado de backups, formateos, instalación de software, limpieza y colocación de hardware, entre otros... 
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-xl-6 col-md-6 col-xs-12">
+
+                <div class="alert paneles sombras">
+                    <h3 class="text-center">Venta de hardware<span class="esquina"><i>(2019 - 2020)</i></span></h3>
+                    <p>Me encargué por casi un año de la parte de atención al cliente del emprendimiento de un conocido.
+                        Mis principales funciones eran publicar los productos entrantes (Marketplace y MercadoLibre) y recibir las dudas de los usuarios. Luego, una vez concretada la venta, la derivaba al encargado de realizarla.
+                    </p>
+
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Conocimientos/Skills-->
+    
+    <section class="container mt-5" id="skills">
+        
+        <h2 class="pt-2 pb-2 text-center headline titulos">Conocimientos-Skills
+            
+            <img src="images/lampara.png" class="icon">
+            
+        </h2>
+        
+        <div class="row mt-5 ancho">
+            <div class="alert paneles sombras">
+                    
+                <p class="text-center">Mis conocimientos son básicos/intermedios en las tecnologías de hoy en día. Trato de entrenarme constantemente y seguir desarrollándome con el objetivo de pulirlos y perfeccionarlos.
+                    Por este motivo, mas allá de que estoy en la universidad, me gustaría también entrar en una empresa ya que es la mejor forma de adquirir estos conocimientos.
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="row text-center mt-4">
+            <div class="col-xl-1"><i></i></div>
+
+            <a class="col-xl-1 logo google" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="G-Suite">
+                <i class="fab fa-google fa-3x"></i>
+            </a>
+
+            <a class="col-xl-1 logo office" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Microsoft Office">
+                <i class="fab fa-windows fa-3x"></i>
+            </a>
+
+            <a class="col-xl-1 logo python" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Python">
+                <i class="fab fa-python fa-3x"></i>
+            </a>
+
+            <a class="col-xl-1 logo c" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Programación en C (Codeblocks)">
+                <i class="fas fa-copyright fa-3x"></i>
+            </a>
+
+            <a class="col-xl-1 logo html" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="HTML">
+                <i class="fab fa-html5 fa-3x"></i>
+            </a>
+
+            <a class="col-xl-1 logo css3" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="CSS">
+                <i class="fab fa-css3-alt fa-3x"></i>
+            </a>
+
+            <a class="col-xl-1 logo bs" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Bootstrap">
+                <i class="fab fa-bootstrap fa-3x"></i>
+            </a>
+            
+            <a class="col-xl-1 logo js" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="JavaScript">
+                <i class="fab fa-js fa-3x"></i>
+            </a>
+
+            <a class="col-xl-1 logo sql" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Bases de datos (SQL)">
+                <i class="fas fa-database fa-3x"></i>
+            </a>
+
+            <a class="col-xl-1 logo git" type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="GIT (GitHub)">
+                <i class="fab fa-git fa-3x"></i>
+            </a>
+
+            
+        </div>
+                     
+    </section>
+    
+    
+
+    <!-- APTITUDES -->
+
+    <section class="container mt-5" id="apt">
+        
+        <h2 class="pt-2 pb-2 text-center headline titulos mt-4">Aptitudes
+    
+        <img src="images/estrella.png" class="icon">
+
+        </h2>
+
+        <!--Aptitudes-->
+        <div class="main-carousel mt-3">
+
+            <div class="card text-center cell is-selected" style="position: absolute; left: 0%;"><img class="card-img-top"
+                 src=https://www.pngkey.com/png/full/349-3492133_teamwork.png>
+              
+                 <h4 class="card-title texto-carta mt-5">TRABAJO EN EQUIPO</h4>
+             
+            </div>
+
+            <div class="card text-center cell is-selected" style="position: absolute; left: 0%;"><img class="card-img-top"
+                src=https://webstockreview.net/images/draw-clipart-hand-holding.png >
+              
+                <h4 class="card-title texto-carta mt-5">RESPETO</h4>
+          
+            </div>
+
+            <div class="card text-center cell is-selected" style="position: absolute; left: 0%;"><img class="card-img-top"
+                src=https://www.personneltoday.com/wp-content/uploads/sites/8/2019/03/workforce-plan.jpg>
+
+                <h4 class="card-title texto-carta mt-5">PLANIFICACIÓN</h4>
+
+            </div>  
+
+            <div class="card text-center cell is-selected" style="position: absolute; left: 0%;"><img class="card-img-top"
+                src=https://www.organization-plus.com/img/icons/home/home_graphic_2.svg>
+
+                <h4 class="card-title texto-carta mt-5">ORGANIZACIÓN</h4>
+
+            </div>
+
+            <div class="card text-center cell is-selected" style="position: absolute; left: 0%;"><img class="card-img-top"
+                src=http://479893106155372739.weebly.com/uploads/1/2/2/5/12255829/8955127.png>
+
+                <h4 class="card-title texto-carta mt-5">EMPATÍA</h4>
+
+            </div>
+
+            <div class="card text-center cell is-selected" style="position: absolute; left: 0%;"><img class="card-img-top"
+                src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwAVwP3ABn-H13dCpLT9RMBw-fJQbOw4lT2Q&usqp=CAU>
+
+                <h4 class="card-title texto-carta mt-5">SIMPATÍA</h4>
+
+            </div>
+
+            <div class="card text-center cell is-selected" style="position: absolute; left: 0%;"><img class="card-img-top"
+                src=https://www.pinclipart.com/picdir/big/74-746717_impressive-judge-simbolo-de-abogado-png-clipart.png>
+
+                <h4 class="card-title texto-carta mt-5">HONESTIDAD</h4>
+
+            </div>
+
+        </div>
+          
+    </section>
+
+
+    <!--Mi CV-->
+
+    <section class="container mt-5 " id="cv">
+        <h2 class="pt-2 pb-2 text-center headline titulos">MI CV
+    
+            <img src="images/cv.png" class="icon">
+        
+        </h2>
+
+        <div class="mt-3 card ">
+            <div class="card-title text-center mt-2">
+                <p class="headline" style="font-size: 1.5rem;">
+                    ¡Descargá mi curriculum!
+
+                </p>
+              
+            </div>
+
+            <div class="text-center card-body">
+                <a href="CV - Fernando Ale.pdf" download class="btn btn-descarga">
+                <i class="fas fa-cloud"></i>
+                Descargar Currículum
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <section class="container mt-5">
+        <h2 class="pt-2 pb-2 text-center headline titulos">Contacto</h2>
+
+        <div class="card card-body py-5 mt-3">
+            <div class="col-sm-12 offset-md-3 col-md-6">
+              
+                <form name="contact" method="POST" data-netlify="true" id="formu" >
+                    <div class="form-group">
+                        <label for="nombre">Nombre <span class="text-danger">*</span></label>
+
+                        <div class="input-group input-group-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text bg-prepend text-white">
+                              <i class="fas fa-user"></i>
+                            </span>
+                          </div>
+                          <input
+                            required="required"
+                            type="text"
+                            name="nombre"
+                            class="form-control border"
+                            placeholder="Ingresá tu nombre"
+                          />
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto">Asunto </label>
+
+                        <div class="input-group input-group-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text bg-prepend text-white">
+                                <i class="fas fa-question"></i>
+                            </span>
+                          </div>
+                          <input
+                            type="text"
+                            name="asunto"
+                            class="form-control border"
+                            placeholder="¿Qué necesitás?"
+                          />
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto">Correo<span class="text-danger"> *</span></label>
+
+                        <div class="input-group input-group-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text bg-prepend text-white">
+                                <i class="fas fa-at"></i>
+                            </span>
+                          </div>
+                          <input
+                            required="required"
+                            type="email"
+                            name="email"
+                            class="form-control border"
+                            placeholder="Ingresá tu correo"
+                          />
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto">Mensaje<span class="text-danger"> *</span></label>
+
+                        <div class="input-group input-group-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text bg-prepend text-white">
+                              <i class="fas fa-pencil-alt"></i>
+                            </span>
+                          </div>
+                          <textarea
+                            name="mensaje"
+                            required="required"
+                            class="form-control border"
+                            placeholder="Escribime"
+                          ></textarea>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn bg-prepend btn-nando text-white btn-block btn-lg mt-3">
+                        <i class="avion text-white far fa-paper-plane"></i> Enviar
+                    </button>
+       
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- video
+    <section class="container-fluid p-0 mt-5">
+        <video src="videos/video.mp4" width="100%" height="100%" autoplay loop controls>
+            <p>Video no disponible</p>
+        </video>
+    </section>
+
+   -->
+
+    <!--Footer-->
+    <footer class="container-fluid mt-5">
+        <div class="row d-flex align-items-center pt-3">
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center">
+                <p>Copyright © 2020 por Fernando Ale</p>
+                <p>Todos los derechos reservados</p>
+                <p><address>Villa Martelli</address></p>
+                <p>Telefono de contacto: 11-6495-6162</p>
+            </div>
+
+            <div class=col-xl-4 col-lg-4 col-md-4 col-sm-12 align-items-center">
+                
+                <div class="d-flex justify-content-around "> 
+                    
+                    <a href="https://www.facebook.com/fer77777" target="_blank" > 
+                        <i class=" fab fa-facebook-square fa-3x text-primary redes"></i>    
+                        
+                    </a>                    
+                    
+                    <a href="http://instagram.com/fernando5ale" target="_blank" >
+                        <i class=" fab fa-instagram-square fa-3x text-danger redes"></i>
+    
+                    </a>
+                    
+
+                    
+                    <a href="https://www.linkedin.com/in/fernando-ale-3763b2169/" target="_blank">
+                        <i class=" fab fa-linkedin fa-3x text-info redes"></i>
+    
+                    </a>
+    
+
+                    <a href="https://wa.link/6ubac3" target="_blank" >
+                        <i class="fab fa-whatsapp-square fa-3x text-success redes"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13143.928444849442!2d-58.51775215273478!3d-34.554008315146575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb72001663b1d%3A0x5efcba2fe72ac866!2sVilla%20Martelli%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1608704488404!5m2!1ses!2sar"
+                    width="100%" 
+                    height="100%" 
+                    frameborder="0" 
+                    allowfullscreen="" 
+                    aria-hidden="false" 
+                    tabindex="0">
+        
+        
+                </iframe>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+       
+    <script src="./app.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+      $(".item").click(function () {
+        $(".collapse").collapse("hide");
+      });
+
+      $(document).on("click", '[data-toggle="lightbox"]', function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
+
+    
+    <script>
+        $(".main-carousel").flickity({
+            cellAlign: "left", //arrancar a la izquierda
+            wrapAround: true,
+            freeScroll: true,
+        });
+    </script>
+
+    <!-- Tooltips sección conocimientos-->
+    <script>
+        $('[data-toggle="tooltip"]').tooltip();
+    </script>
+
+
+    <!--Smooth scroll-->
+
+    <script>
+        $("body").scrollspy({ target: "#main-nav" });
+  
+        // Agregar scroll suavizado
+        $("#navbarNav a").on("click", function (e) {
+          if (this.hash !== "") {
+            // Prevent default
+            e.preventDefault();
+  
+            // Store hash
+            const hash = this.hash;
+  
+            // scroll animado
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              900,
+              function () {
+                // Add hash to URL after scroll
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+      </script>
+
+    
+
+</body>
+</html>
